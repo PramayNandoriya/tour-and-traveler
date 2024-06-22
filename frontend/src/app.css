@@ -1,0 +1,34 @@
+:root {
+    --primary-dark: #5651e5;
+    --primary-light: #709dff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+html::-webkit-scrollbar {
+    width: 5px;
+    /* background: transparent; */
+    filter: blur(15px);
+}
+
+html::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+html::-webkit-scrollbar-thumb {
+    border: 3px solid #1976d2;
+}
+
+button {
+    border: 1px solid var(--primary-dark);
+    background: transparent;
+    color: #fff;
+    padding: .7rem 1.5rem;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+}
